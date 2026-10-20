@@ -25,7 +25,8 @@ public class FullNameApplication {
 
         // ask for suffix
         System.out.print("Suffix: ");
-        String suffix = theScanner.nextLine().trim()
+        String suffix = theScanner.nextLine().trim();
+
 
 
 
