@@ -40,6 +40,9 @@ public class FullNameApplication {
             fullName += " " + middleName;
         }
 
+        // add last name
+        fullName += " " + lastName;
+
 
 
 
