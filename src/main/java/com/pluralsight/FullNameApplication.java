@@ -43,6 +43,11 @@ public class FullNameApplication {
         // add last name
         fullName += " " + lastName;
 
+        // add the suffix if one was entered
+        if (!suffix.isEmpty()) {
+            fullName += ", " + suffix;
+        }
+
 
 
 
