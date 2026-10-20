@@ -47,6 +47,9 @@ public class FullNameApplication {
         if (!suffix.isEmpty()) {
             fullName += ", " + suffix;
         }
+        // display the completed full name
+        System.out.println("Full name: " + fullName);
+
 
 
 
