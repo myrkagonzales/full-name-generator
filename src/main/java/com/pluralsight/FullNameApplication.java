@@ -35,6 +35,7 @@ public class FullNameApplication {
 
         // Begin building the full name
         String fullName = firstName;
+
         // only add the middle name if the user entered one
         if (!middleName.isEmpty()) {
             fullName += " " + middleName;
