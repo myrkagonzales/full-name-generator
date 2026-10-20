@@ -50,11 +50,8 @@ public class FullNameApplication {
         // display the completed full name
         System.out.println("Full name: " + fullName);
 
-
-
-
-
-
+        // close scanner
+        theScanner.close();
 
     }
 }
