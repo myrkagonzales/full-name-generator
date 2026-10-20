@@ -27,6 +27,10 @@ public class FullNameApplication {
         System.out.print("Suffix: ");
         String suffix = theScanner.nextLine().trim();
 
+        // Begin building the full name
+        String fullName = firstName;
+
+
 
 
 
